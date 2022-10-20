@@ -7,6 +7,7 @@ h1{
 
 header{
     background-color: #333;
+    border-radius: 0.5em 0.5em;
 }
 
 ul{
@@ -18,7 +19,7 @@ ul{
     
 }
 
-li{
+.navbar{
     float: left;
 }
   
@@ -39,7 +40,7 @@ body{
 #cuerpo{
     background-color:#8aade8;
     height: 93%;
-    width:97%;
+    width:96.5%;
     margin: 0 0 0 0;
     padding: 1em;
     border-radius: 0.5em;
@@ -56,8 +57,16 @@ footer{
 }
 
 
-#contenido{
+#content{
+    margin-top: 1em;
+    border-radius: 0.5em;
     padding: 1em;
     background-color: #333;
     color: white;
+}
+
+.AboutMe{
+    list-style-type: square;
+    margin-left: 0.5em;
+    margin-top: 1em;
 }
